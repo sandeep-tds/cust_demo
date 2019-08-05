@@ -1,0 +1,116 @@
+{
+    "dataSets": [
+        {
+            "resourceIdentifier": "Products('b5bf6df7-d505-43a9-9acf-4de2817c4bd1')",
+            "data": {
+                "d": {
+                    "Category": "PDAs & Organizers",
+                    "CategoryName": "PDAs & Organizers",
+                    "CurrencyCode": "EUR",
+                    "DimensionDepth": "22.0000",
+                    "DimensionHeight": "3.0000",
+                    "DimensionUnit": "cm",
+                    "DimensionWidth": "32.0000",
+                    "LongDescription": "Digital Organizer with State-of-the-Art Storage Encryption",
+                    "Name": "ITelO Vault",
+                    "PictureUrl": "/imgs/HT-1007.jpg",
+                    "Price": "299.000",
+                    "ProductId": "b5bf6df7-d505-43a9-9acf-4de2817c4bd1",
+                    "QuantityUnit": "EA",
+                    "ShortDescription": "Digital Organizer with State-of-the-Art Storage Encryption",
+                    "StockDetails": {
+                        "__deferred": {
+                            "uri": "Products('b5bf6df7-d505-43a9-9acf-4de2817c4bd1')/StockDetails"
+                        }
+                    },
+                    "SupplierDetails": {
+                        "Address": {
+                            "City": "Atlanta, Georgia",
+                            "Country": "US",
+                            "HouseNumber": "8315",
+                            "PostalCode": "30350",
+                            "Street": "Jett Ferry Rd"
+                        },
+                        "City": "Atlanta, Georgia",
+                        "Country": "US",
+                        "EmailAddress": "franklin.jones@pear-computing.com",
+                        "HouseNumber": "8315",
+                        "PhoneNumber": "6789012345",
+                        "PostalCode": "30350",
+                        "Products": {
+                            "__deferred": {
+                                "uri": "Suppliers('73f1318e-cda9-422d-8f2e-0e5e5ac27dc6')/Products"
+                            }
+                        },
+                        "PurchaseOrders": {
+                            "__deferred": {
+                                "uri": "Suppliers('73f1318e-cda9-422d-8f2e-0e5e5ac27dc6')/PurchaseOrders"
+                            }
+                        },
+                        "Street": "Jett Ferry Rd",
+                        "SupplierId": "73f1318e-cda9-422d-8f2e-0e5e5ac27dc6",
+                        "SupplierName": "Pear Computing Services",
+                        "UpdatedTimestamp": null,
+                        "__metadata": {
+                            "id": "Suppliers('73f1318e-cda9-422d-8f2e-0e5e5ac27dc6')",
+                            "uri": "Suppliers('73f1318e-cda9-422d-8f2e-0e5e5ac27dc6')"
+                        }
+                    },
+                    "SupplierId": "73f1318e-cda9-422d-8f2e-0e5e5ac27dc6",
+                    "UpdatedTimestamp": null,
+                    "Weight": "0.200",
+                    "WeightUnit": "KG",
+                    "__metadata": {
+                        "content_type": "application/binary",
+                        "edit_media": "Products('b5bf6df7-d505-43a9-9acf-4de2817c4bd1')/$value",
+                        "id": "Products('b5bf6df7-d505-43a9-9acf-4de2817c4bd1')",
+                        "media_src": "Products('b5bf6df7-d505-43a9-9acf-4de2817c4bd1')/$value",
+                        "uri": "Products('b5bf6df7-d505-43a9-9acf-4de2817c4bd1')"
+                    }
+                }
+            }
+        },
+        {
+            "resourceIdentifier": "/Suppliers?$filter=SupplierId%20eq%20%2773f1318e-cda9-422d-8f2e-0e5e5ac27dc6%27&",
+            "data": {
+                "d": {
+                    "results": [
+                        {
+                            "Address": {
+                                "City": "Atlanta, Georgia",
+                                "Country": "US",
+                                "HouseNumber": "8315",
+                                "PostalCode": "30350",
+                                "Street": "Jett Ferry Rd"
+                            },
+                            "City": "Atlanta, Georgia",
+                            "Country": "US",
+                            "EmailAddress": "franklin.jones@pear-computing.com",
+                            "HouseNumber": "8315",
+                            "PhoneNumber": "6789012345",
+                            "PostalCode": "30350",
+                            "Products": {
+                                "__deferred": {
+                                    "uri": "Suppliers('73f1318e-cda9-422d-8f2e-0e5e5ac27dc6')/Products"
+                                }
+                            },
+                            "PurchaseOrders": {
+                                "__deferred": {
+                                    "uri": "Suppliers('73f1318e-cda9-422d-8f2e-0e5e5ac27dc6')/PurchaseOrders"
+                                }
+                            },
+                            "Street": "Jett Ferry Rd",
+                            "SupplierId": "73f1318e-cda9-422d-8f2e-0e5e5ac27dc6",
+                            "SupplierName": "Pear Computing Services",
+                            "UpdatedTimestamp": null,
+                            "__metadata": {
+                                "id": "Suppliers('73f1318e-cda9-422d-8f2e-0e5e5ac27dc6')",
+                                "uri": "Suppliers('73f1318e-cda9-422d-8f2e-0e5e5ac27dc6')"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

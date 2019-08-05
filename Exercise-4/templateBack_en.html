@@ -1,0 +1,109 @@
+<div id="mySimpleTemplate" data-type="text/x-handlebars-template">
+    <div class="myTemplate" style="padding:16px;">
+        <br style="float: left;">
+        <div class="listitem" style="display: inline-block;">
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Base Unit
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Width
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.DimensionWidth}}
+                        {{dataSets.[0].data.d.DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px;">
+                    Weight
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.Weight}}
+                        {{dataSets.[0].data.d.WeightUnit}}
+                </span>
+            </div>
+        </div>
+        <div class="listitem" style="display: inline-block; position: absolute ; left: 200px;">
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Height
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.DimensionHeight}}
+                        {{dataSets.[0].data.d.DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Depth
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.DimensionDepth}}
+                        {{dataSets.[0].data.d.DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Supplier Country
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.SupplierDetails.Country}}
+                </span>
+            </div>
+        </div>
+        <div class="listitem">
+                <div class="listitem">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Supplier Phone
+            </span>
+            <br>
+            <span class="listitem-value">
+                <div class="c2g_phoneNumber">
+                {{dataSets.[0].data.d.SupplierDetails.PhoneNumber}}
+                </div>
+            </span>
+        </div>
+        <div class="listitem">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Supplier Email
+            </span>
+            <br>
+            <span class="listitem-value">
+                <div class="c2g_email">
+                {{dataSets.[0].data.d.SupplierDetails.EmailAddress}}
+                </div>
+            </span>
+        </div>
+        <div class="listitem">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Supplier Address
+            </span>
+            <br>
+            <span class="listitem-value">
+                <div class="c2g_address">
+                {{dataSets.[0].data.d.SupplierDetails.Address.HouseNumber}}
+                    &nbsp;
+                    {{dataSets.[0].data.d.SupplierDetails.Address.Street}}
+                <br>
+                    {{dataSets.[0].data.d.SupplierDetails.Address.City}}
+                        &nbsp;
+                        {{dataSets.[0].data.d.SupplierDetails.Address.Country}}
+                            ,
+                            {{dataSets.[0].data.d.SupplierDetails.Address.PostalCode}}
+            </div>
+            </span>
+        </div>
+    </div>
+</div>

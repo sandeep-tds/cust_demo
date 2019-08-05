@@ -1,0 +1,70 @@
+
+<body>
+    <div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+        <div class="header" style="height: 30px">
+            <div style="text-align: left;">
+                <span style="font-weight: bold; font-size: 24px; float: left; color: #FF4444; display: inline; padding-top: 8px">
+                    {{ProductName}}
+                </span>
+            </div>
+            <div style="text-align: right;">
+                <span style="float: right; display: inline; font-size: 11px; color:#000; padding-top: 5px">
+                    {{ProdunctId}}
+                </span>
+            </div>
+            <div style="text-align: right;">
+                <span style="float: right; clear: right; display: inline; font-size: 17px; color: #000; padding-top: 4px">
+                    {{Price}}
+                        {{ProductCurrencyCode}}
+                </span>
+            </div>
+        </div>
+        <div class="card-content">
+            <span style="float: right; display: inline; padding-top: 20px">
+                <img src="{{PictureUrl}}" alt="" style=" width: 80px; height: 80px;">
+            </span>
+            <div class="listitem">
+                <div class="listitem-label">
+                    <span>
+                        Category
+                    </span>
+                </div>
+                <br>
+                <div class="listitem-value">
+                    <span>
+                        {{ProductCategory}}
+                    </span>
+                </div>
+            </div>
+            <div class="listitem">
+                <div class="listitem-label">
+                    <span>
+                        Supplier
+                    </span>
+                </div>
+                <br>
+                <div class="listitem-value">
+                    <span>
+                        {{Supplier}}
+                    </span>
+                </div>
+            </div>
+            <div class="listitem">
+                <div class="listitem-label">
+                    <span>
+                        Product Description
+                    </span>
+                </div>
+                <br>
+                <div class="listitem-value">
+                    <span>
+                        {{ProductDescprition}}
+                    </span>
+                </div>
+            </div>
+            <div class="listitem">
+                <br>
+            </div>
+        </div>
+    </div>
+</body>

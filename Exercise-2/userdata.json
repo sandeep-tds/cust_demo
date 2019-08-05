@@ -1,0 +1,94 @@
+{
+    "dataSets": [
+        {
+            "resourceIdentifier": "SalesOrderHeaders('140a1851-9e67-4b0d-b469-9884fac21716')",
+            "data": {
+                "d": {
+                    "CreatedAt": "/Date(1558507152746)/",
+                    "CurrencyCode": "EUR",
+                    "CustomerDetails": {
+                        "Address": {
+                            "City": "Malsch",
+                            "Country": "DE",
+                            "HouseNumber": "3",
+                            "PostalCode": "76316",
+                            "Street": "Bruhrückstr."
+                        },
+                        "City": "Malsch",
+                        "Country": "DE",
+                        "CustomerId": "24a20cf0-2489-404c-b85a-2e5af1cb82ed",
+                        "DateOfBirth": "/Date(946684800000)/",
+                        "EmailAddress": "dummy_address@sap.com",
+                        "FirstName": "Ulrich",
+                        "HouseNumber": "3",
+                        "LastName": "Scholz",
+                        "PhoneNumber": "3102050749",
+                        "PostalCode": "76316",
+                        "SalesOrders": {
+                            "__deferred": {
+                                "uri": "Customers('24a20cf0-2489-404c-b85a-2e5af1cb82ed')/SalesOrders"
+                            }
+                        },
+                        "Street": "Bruhrückstr.",
+                        "UpdatedTimestamp": null,
+                        "__metadata": {
+                            "id": "Customers('24a20cf0-2489-404c-b85a-2e5af1cb82ed')",
+                            "uri": "Customers('24a20cf0-2489-404c-b85a-2e5af1cb82ed')"
+                        }
+                    },
+                    "CustomerId": "24a20cf0-2489-404c-b85a-2e5af1cb82ed",
+                    "GrossAmount": "2023.000",
+                    "Items": {
+                        "__deferred": {
+                            "uri": "SalesOrderHeaders('140a1851-9e67-4b0d-b469-9884fac21716')/Items"
+                        }
+                    },
+                    "LifeCycleStatus": "N",
+                    "LifeCycleStatusName": "New",
+                    "NetAmount": "1700.000",
+                    "SalesOrderId": "140a1851-9e67-4b0d-b469-9884fac21716",
+                    "TaxAmount": "323.000",
+                    "__metadata": {
+                        "id": "SalesOrderHeaders('140a1851-9e67-4b0d-b469-9884fac21716')",
+                        "uri": "SalesOrderHeaders('140a1851-9e67-4b0d-b469-9884fac21716')"
+                    }
+                }
+            }
+        },
+        {
+            "resourceIdentifier": "/SalesOrderItems?$filter=SalesOrderId%20eq%20%27140a1851-9e67-4b0d-b469-9884fac21716%27",
+            "data": {
+                "d": {
+                    "results": [
+                        {
+                            "CurrencyCode": "EUR",
+                            "DeliveryDate": null,
+                            "GrossAmount": "2023.000",
+                            "Header": {
+                                "__deferred": {
+                                    "uri": "SalesOrderItems(ItemNumber=10,SalesOrderId='140a1851-9e67-4b0d-b469-9884fac21716')/Header"
+                                }
+                            },
+                            "ItemNumber": 10,
+                            "NetAmount": "1700.000",
+                            "ProductDetails": {
+                                "__deferred": {
+                                    "uri": "SalesOrderItems(ItemNumber=10,SalesOrderId='140a1851-9e67-4b0d-b469-9884fac21716')/ProductDetails"
+                                }
+                            },
+                            "ProductId": "2d50564d-b177-4515-9510-aff219786a1f",
+                            "Quantity": "1.000",
+                            "QuantityUnit": "EA",
+                            "SalesOrderId": "140a1851-9e67-4b0d-b469-9884fac21716",
+                            "TaxAmount": "323.000",
+                            "__metadata": {
+                                "id": "SalesOrderItems(ItemNumber=10,SalesOrderId='140a1851-9e67-4b0d-b469-9884fac21716')",
+                                "uri": "SalesOrderItems(ItemNumber=10,SalesOrderId='140a1851-9e67-4b0d-b469-9884fac21716')"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+
+.myTemplate {
+background: linear-gradient(to bottom,#FEED50,#FEED50);
+color: #000000;
+font-family: Helvetica, Arial;
+height: 100vh;
+}
+
+.header {
+display: flex;
+padding: 1rem;
+}
+
+.header h1{
+font-size: 1.5rem;
+margin-top: 0.5rem;
+color: #FF4444;
+font-weight: bold;
+line-height: 2.5rem;
+flex: 1 1;
+white-space: nowrap;
+}
+
+.header .name{
+font-weight: normal;
+margin-top: 1.25rem;
+font-size: 1rem;
+display: block;
+text-align: right;
+white-space: normal;
+}
+
+.card-content {
+background-color: rgba(0,0,0,0.22);
+display: flex;
+height: 11rem;
+padding: 1rem;
+margin-bottom: 2rem;
+justify-content: space-between;
+}
+
+.card-content img{
+height:3rem;
+}
+
+.card-content .title-content{
+margin-bottom:1.25rem;
+}
+
+.card-content .title{
+font-size: 0.75rem;
+color: #FF4444;
+}
+
+.card-content .content{
+font-size: 1rem;
+color: #000;
+}
+
+hr{
+border-color: #DFDFDF;
+}
+
+.desciprtion{
+padding:1rem
+}
+
+.desciprtion .d-title{
+font-weight: bold;
+color: #FF4444;
+}
+
+.desciprtion .d-title-a{
+font-weight: bold;
+float:right;
+color: #FF4444;
+}
+
+.cardBack{
+    color: #FF4444;
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+    display: inline;
+    padding:16px
+}

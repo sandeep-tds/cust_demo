@@ -1,0 +1,109 @@
+<div id="mySimpleTemplate" data-type="text/x-handlebars-template">
+    <div class="myTemplate" style="padding:16px;">
+        <br style="float: left;">
+        <div class="listitem" style="display: inline-block;">
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Base Unit
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Width
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].DimensionWidth}}
+                        {{d.results.[0].DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px;">
+                    Weight
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].Weight}}
+                        {{d.results.[0].WeightUnit}}
+                </span>
+            </div>
+        </div>
+        <div class="listitem" style="display: inline-block; position: absolute ; left: 200px;">
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Height
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].DimensionHeight}}
+                        {{d.results.[0].DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Depth
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].DimensionDepth}}
+                        {{d.results.[0].DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Supplier Country
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].Country}}
+                </span>
+            </div>
+        </div>
+        <div class="listitem">
+                <div class="listitem">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Supplier Phone
+            </span>
+            <br>
+            <span class="listitem-value">
+                <div class="c2g_phoneNumber">
+                {{d.results.[0].SupplierDetails.EmailAddress}}
+                </div>
+            </span>
+        </div>
+        <div class="listitem">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Supplier Email
+            </span>
+            <br>
+            <span class="listitem-value">
+                <div class="c2g_email">
+                {{d.results.[0].SupplierDetails.EmailAddress}}
+                </div>
+            </span>
+        </div>
+        <div class="listitem">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Supplier Address
+            </span>
+            <br>
+            <span class="listitem-value">
+                <div class="c2g_address">
+                {{d.results.[0].SupplierDetails.Street}}
+                    &nbsp;
+                    {{d.results.[0].SupplierDetails.HouseNumber}}
+                <br>
+                    {{d.results.[0].SupplierDetails.PostalCode}}
+                        &nbsp;
+                        {{d.results.[0].SupplierDetails.City}}
+                            ,
+                            {{d.results.[0].SupplierDetails.Country}}
+            </div>
+            </span>
+        </div>
+    </div>
+</div>
