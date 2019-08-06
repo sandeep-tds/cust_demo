@@ -1,8 +1,16 @@
 # Demo Hands-on Exercise
 
+## Creating a Trial Account on SAP CP
+[Creating an account on SAP Community to access the SAP CP Trial Landscape](https://developers.sap.com/india/tutorials/hcp-create-trial-account.html)
+
+If you already have an account on SAP community (P-User), please use [this link](https://account.hanatrial.ondemand.com) to access the SAP CP Trial Cockpit and enter your credentials.
+
+---
+
 ## Enabling Mobile Services
 [Enabling Mobile Services on SAP Cloud Platform Neo](https://developers.sap.com/tutorials/cp-mobile-cards-setup.html)
 
+---
 ## Card-1 Sales Order Card
 
 ### Exercise - 1
@@ -28,7 +36,11 @@ In this exercise we will create basic actions like Accept/Reject.
 
 [Click Here to get started](https://developers.sap.com/tutorials/cp-mobile-cards-action.html)
 
-### Exercise - 4
+---
+
+## Card-2 Product Information Card
+
+### Exercise - 1
 
 1. Refer to [this link](https://developers.sap.com/tutorials/cp-mobile-cards-content-actions.html) and create a card.
 
@@ -41,7 +53,7 @@ In this exercise we will create basic actions like Accept/Reject.
 
 In this exercise we will create a product card with context specific actions.
 
-[Click Here to get started]
+---
 
 ## Accessing other tutorials
 https://developers.sap.com/topics/mobile-cards.html#tutorials
